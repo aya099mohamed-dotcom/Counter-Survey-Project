@@ -1,0 +1,60 @@
+.\venv\ 
+
+
+step-counter-survey.csv
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# ML / Data
+data/
+datasets/
+*.csv
+*.xlsx
+*.pkl
+*.joblib
+
+# Model files
+models/
+*.pt
+*.pth
+*.h5
+*.onnx
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Temporary files
+*.tmp
+*.temp
